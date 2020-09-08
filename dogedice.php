@@ -1,32 +1,24 @@
 <?php
 @error_reporting(0);
-$banner = "
-:hhhhhhyyssssssssssssssssssssssssssssssssyyhhhhhh:
-+MMMNmmmdyyssssssssssssssssssssssssssssyhdmmmNMMM+
-+MNmmd+.                                  .+dmmNM+
-+Nmms`                                      `smmN+
-/mmy                                          ymm/
-/mm/                                          /mm/
-/mm/      `------------.  ---------.`         /mm/
-/mm/      :mmmmmmmmmmmm+ `mmmmmmmmmmmh+`      /mm/
-/mm/      :mmmh////////- `mmmm////+smmmd-     /mm/
-/mm/      :mmmy          `mmmm      :mmmd     /mm/
-/mm/      :mmmy          `mmmm      -mmmd     /mm/
-/mm/      :mmmmddddddd+  `mmmm::::/odmmm/     /mm/
-/mm/      :mmmdyyyyyyy/  `mmmmmmmmmmmds-      /mm/
-/mm/      :mmmy          `mmmm:::::-.         /mm/
-/mm/      :mmmy          `mmmm                /mm/
-/mm/      :mmmy          `mmmm                /mm/
-/mm/      :ddds          `dddd                /mm/
-/mm/                                          /mm/
-/mm/                                          /mm/
-/mm/                                          /mm/
-/mmy                                          ymm/
-+Nmms`                                      `smmN+
-+MNmmd+.                                  .+dmmNM+
-+MMMNmmmdhyssssssssssssssssssssssssssssyhdmmmNMMM+
-:hhhhhyyyssssssssssssssssssssssssssssssssyyyhhhhh:
-\n";
+$banner = ".::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$$
+      :$$NWX!!:           .:!!!!!!XUWW$$$$$$$$$P
+      $$$$$##WX!:      .<!!!!UW$$$$"  $$$$$$$$#
+      $$$$$  $$$UX   :!!UW$$$$$$$$$   4$$$$$*
+      ^$$$B  $$$$\     $$$$$$$$$$$$   d$$R"
+        "*$bd$$$$      '*$$$$$$$$$$$o+#"
+             """"          """""""
+┌─────────────────────────────────────────────────────┐
+│               _           _ __     __      __       │
+│         /\   | |         | |\ \   / /     / /       │
+│        /  \  | |     __ _| |_\ \_/ /   _ / /_       │
+│       / /\ \ | |    / _` | '_ \   / | | | '_ \      │
+│      / ____ \| |___| (_| | |_) | || |_| | (_) |     │
+│     /_/    \_\______\__,_|_.__/|_| \__,_|\___/      │
+│                                                     │
+│                                                     │
+└─────────────────────────────────────────────────────┘";
 
 function dices($send, $coki){
 $ch = curl_init('https://faucetpay.io/dice/play');
